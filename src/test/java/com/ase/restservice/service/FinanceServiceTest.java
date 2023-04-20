@@ -1,4 +1,4 @@
-package com.example.restservice.service;
+package com.ase.restservice.service;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
@@ -7,7 +7,6 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.mockito.Mockito.doReturn;
 
 import com.ase.restservice.exception.InvalidStockIDException;
-import com.ase.restservice.service.FinanceService;
 import java.io.IOException;
 import java.math.BigDecimal;
 import org.junit.jupiter.api.BeforeEach;

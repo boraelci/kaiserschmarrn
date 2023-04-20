@@ -1,4 +1,4 @@
-package com.example.restservice.service;
+package com.ase.restservice.service;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
@@ -10,7 +10,6 @@ import com.ase.restservice.exception.ResourceAlreadyExistsException;
 import com.ase.restservice.exception.ResourceNotFoundException;
 import com.ase.restservice.model.Cryptocurrency;
 import com.ase.restservice.repository.CryptocurrencyRepository;
-import com.ase.restservice.service.CryptocurrencyService;
 import java.util.ArrayList;
 import java.util.Optional;
 import org.junit.jupiter.api.BeforeEach;

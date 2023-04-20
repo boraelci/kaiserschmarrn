@@ -1,4 +1,4 @@
-package com.example.restservice.service;
+package com.ase.restservice.service;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
@@ -10,7 +10,6 @@ import com.ase.restservice.exception.AccountAlreadyExistsException;
 import com.ase.restservice.exception.AccountNotFoundException;
 import com.ase.restservice.model.Account;
 import com.ase.restservice.repository.AccountRepository;
-import com.ase.restservice.service.AccountService;
 import java.util.Optional;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;

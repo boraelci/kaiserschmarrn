@@ -1,4 +1,4 @@
-package com.example.restservice.service;
+package com.ase.restservice.service;
 
 import com.ase.restservice.exception.AccountNotFoundException;
 import com.ase.restservice.exception.InvalidTransactionException;
@@ -12,10 +12,6 @@ import com.ase.restservice.model.NFT;
 import com.ase.restservice.model.Stock;
 import com.ase.restservice.repository.AccountRepository;
 import com.ase.restservice.repository.AssetRepository;
-import com.ase.restservice.service.AssetService;
-import com.ase.restservice.service.CryptocurrencyService;
-import com.ase.restservice.service.NFTService;
-import com.ase.restservice.service.StockService;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
